@@ -1,0 +1,11 @@
+include dash_observable/dash_observable.min.js
+include dash_observable/dash_observable.min.js.map
+include dash_observable/async-*.js
+include dash_observable/async-*.js.map
+include dash_observable/*-shared.js
+include dash_observable/*-shared.js.map
+include dash_observable/metadata.json
+include dash_observable/package-info.json
+include README.md
+include LICENSE
+include package.json
