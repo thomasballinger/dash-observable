@@ -1,3 +1,27 @@
+# WIP - this doesn't work yet!
+
+All I've done is run the cookiecutter.
+
+Plan is to be able to embed Observable notebooks, like
+https://github.com/thomasballinger/observable-jupyter
+and
+https://github.com/thomasballinger/observable-jupyter-widget,
+and let them reactively commune with Dash components.
+
+Ideally each Observable cell is a component property, but if those need to be known statically then
+a single one for (specified) outputs and a single property for inputs is ok.
+
+Dash is a lot like Observable, so a pretty smooth interop should be possible. This might take a bit to get right. Layout will be important, I'd like to swap Observable.plot graphs in for Plotly ones without much trouble.
+
+Maybe an Observable plot component makes sense to, similar to https://juba.github.io/obsplot/
+
+It might be nice to listen to events too?
+https://budavariam.github.io/posts/2021/04/05/plotly-dash-development-tips/#all-possible-events
+
+I'd guess I'll have something working in a week or two, but that's not a deadline ;)
+
+---
+
 # Observable Dash Components
 
 Observable Dash Components is a Dash component library.
